@@ -1,0 +1,59 @@
+body{
+font-family: Arial;
+background:#5cf0ee;
+display:flex;
+justify-content:center;
+margin-top:80px;
+}
+
+.container{
+background:rgb(239, 218, 142);
+padding:30px;
+border-radius:10px;
+width:350px;
+box-shadow:0 0 10px rgba(187, 185, 185, 0.822);
+}
+
+h1{
+text-align:center;
+}
+
+.input-area{
+display:flex;
+gap:10px;
+margin-bottom:20px;
+}
+
+input{
+flex:1;
+padding:10px;
+}
+
+button{
+padding:10px;
+cursor:pointer;
+background:#ffffff;
+color:rgb(0, 0, 0);
+border:none;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{ 
+background:#e0e0e0;/* cor quadrado da anotação */ 
+padding:10px;
+margin-bottom:10px;
+display:flex;
+justify-content:space-between;
+}
+
+.remover{
+color:red;
+cursor:pointer;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
